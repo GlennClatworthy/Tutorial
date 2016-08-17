@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.dreampublic.net/pbs/rdf/1.2/xsl/pbsLOD.xsl" ?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:pbsterms="http://www.dreampublic.net/pbs/rdf/1.2/rdfs/pbsterms.rdf#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<pbsterms:Program rdf:about="http://www.dreampublic.net/pbs/rdf/1.2/programs/MAST004503.xml">
+	<dcterms:abstract>A resource identifying an individual public television program or series episode</dcterms:abstract>
+	<dcterms:identifier>MAST004503</dcterms:identifier>
+	<pbsterms:assetID>378854718</pbsterms:assetID>
+	<dcterms:relation rdfs:label="MAST" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/rootList.rdf#MAST"/>
+	<pbsterms:episodeNumber>4503</pbsterms:episodeNumber>
+	<pbsterms:programType rdfs:label="Series Episode" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.1/libraries/pbsterms.rdf#SeriesEpisode"/>
+	<pbsterms:sourceCollection rdfs:label="PBS Program Offer Data Service" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/pbsterms.rdf#PBSPODS"/>
+	<dcterms:title>MAST004503: Masterpiece Classic  | Downton Abbey Season 5</dcterms:title>
+	<pbsterms:titleSeries>Masterpiece Classic </pbsterms:titleSeries>
+	<pbsterms:titleMiniseries>Downton Abbey Season 5</pbsterms:titleMiniseries>
+	<dc:extant>60 minutes</dc:extant>
+	<dcterms:type rdfs:label="Moving Image" rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+	<dcterms:description>Mary checks in to a hotel and checks out a potential mate. The specter of Green is revived when the police come to Downton. And a secret from Violet&apos;s past is revealed.</dcterms:description>
+	<dcterms:creator rdfs:label="Carnival Film &amp; Television Ltd." rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/production#124153747"/>
+	<dc:coverage>USA</dc:coverage>
+	<dcterms:publisher rdfs:label="PBS" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.1/libraries/pbsterms.rdf#SVC3136739"/>
+	<pbsterms:format rdfs:label="Feature Film/Video Drama" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/pbstaxonomy.rdf#FMT378854718"/>
+	<pbsterms:genre rdfs:label="Drama" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/pbstaxonomy.rdf#GEN285844999"/>
+	<dcterms:subject rdfs:label="Culture" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/pbstaxonomy.rdf#KEY180365383"/>
+	<dcterms:subject rdfs:label="Drama" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/pbstaxonomy.rdf#KEY3262341"/>
+	<dcterms:subject rdfs:label="England" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/pbstaxonomy.rdf#KEY3262348"/>
+	<dcterms:subject rdfs:label="History" rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/pbstaxonomy.rdf#KEY3261855"/>
+	<dcterms:issued>2015/01/18</dcterms:issued>
+	<dcterms:language rdfs:label="en" rdf:resource = "http://lexvo.org/id/iso639-3/eng"/>
+	<pbsterms:vchip>TV-PG+D   : Parental Guidance Suggested</pbsterms:vchip>
+<dcterms:hasPart pbsterms:segmentNumber="1" pbsterms:segmentLength="60" pbsterms:segmentDescription="Mary checks in to a hotel and checks out a potential mate. The specter of Green is revived when the police come to Downton. And a secret from Violet&apos;s past is revealed.">
+</dcterms:hasPart>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3274656.xml" rdfs:label="Hugh Bonneville, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3280741.xml" rdfs:label="Jim Carter, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3286535.xml" rdfs:label="Brendan Coyle, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3292505.xml" rdfs:label="Kevin Doyle, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3300350.xml" rdfs:label="Joanne Froggatt, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3328764.xml" rdfs:label="Phyllis Logan, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3335088.xml" rdfs:label="Elizabeth Mcgovern, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3354979.xml" rdfs:label="David Robb, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3365396.xml" rdfs:label="Maggie Smith, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS3381156.xml" rdfs:label="Penelope Wilton, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS126436883.xml" rdfs:label="Raquel Cassidy, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS132425288.xml" rdfs:label="Michelle Dockery, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS144013349.xml" rdfs:label="Laura Carmichael, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS144013362.xml" rdfs:label="Sophie McShera, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS144117435.xml" rdfs:label="Lesley Nicol, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS144117473.xml" rdfs:label="Allen Leech, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS250472033.xml" rdfs:label="Lily James, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS391131409.xml" rdfs:label="Tom Cullen, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS392093955.xml" rdfs:label="Robert James-Collier, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+	<dcterms:contributor rdf:resource="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CAS392094001.xml" rdfs:label="Ed Speelers, Performer" pbsterms:castRole="http://www.dreampublic.net/pbs/rdf/1.2/libraries/talent.xml#CSRPE" pbsterms:castDescription=""/>
+</pbsterms:Program>
+</rdf:RDF>
