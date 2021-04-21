@@ -1,84 +1,118 @@
-# baseURI: https://github.com/GlennClatworthy/Tutorial/
-
 @prefix : <https://github.com/GlennClatworthy/Tutorial/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://github.com/GlennClatworthy/Tutorial/> .
 
-:
-  rdf:type owl:Ontology ;
-  owl:versionIRI <https://github.com/GlennClatworthy/Tutorial> ;
-.
-:Alien
-  rdf:type owl:Class ;
-  rdfs:subClassOf :Animal ;
-.
-:Animal
-  rdf:type owl:Class ;
-.
-:Davy_Ducky
-  rdf:type owl:NamedIndividual ;
-  rdf:type :Ducky ;
-  :watches :Leave_It_to_Beaver ;
-.
-:Ducky
-  rdf:type owl:Class ;
-  rdfs:subClassOf :Animal ;
-.
-:Human
-  rdf:type owl:Class ;
-  rdfs:subClassOf :Animal ;
-.
-:Leave_It_to_Beaver
-  rdf:type owl:NamedIndividual ;
-  rdf:type :TelevisionShow ;
-.
-:Matlock
-  rdf:type owl:NamedIndividual ;
-  rdf:type :TelevisionShow ;
-.
-:Pony
-  rdf:type owl:Class ;
-  rdfs:subClassOf :Animal ;
-.
-:Prissy
-  rdf:type owl:NamedIndividual ;
-  rdf:type :Pony ;
-  :watches :Matlock ;
-.
-:Roger_Kaputnick
-  rdf:type owl:NamedIndividual ;
-  rdf:type :Human ;
-  :watches :Stargate_SG1 ;
-.
-:Spock
-  rdf:type owl:NamedIndividual ;
-  rdf:type :Alien ;
-.
-:Star_Trek
-  rdf:type owl:NamedIndividual ;
-  rdf:type :TelevisionShow ;
-.
-:Stargate_SG1
-  rdf:type owl:NamedIndividual ;
-  rdf:type :TelevisionShow ;
-.
-<https://github.com/GlennClatworthy/Tutorial/Teal'C>
-  rdf:type :Alien ;
-  rdfs:label "Teal'C	" ;
-  :appearsIn :Stargate_SG1 ;
-.
-:TelevisionShow
-  rdf:type owl:Class ;
-.
-:appearsIn
-  rdf:type owl:ObjectProperty ;
-  rdfs:range :TelevisionShow ;
-.
-:watches
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain :Animal ;
-  rdfs:range :TelevisionShow ;
-.
+<https://github.com/GlennClatworthy/Tutorial/> rdf:type owl:Ontology ;
+                                                owl:versionIRI <https://github.com/GlennClatworthy/Tutorial> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://github.com/GlennClatworthy/Tutorial/appearsIn
+:appearsIn rdf:type owl:ObjectProperty ;
+           rdfs:range :TelevisionShow .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/watches
+:watches rdf:type owl:ObjectProperty ;
+         rdfs:domain :Animal ;
+         rdfs:range :TelevisionShow .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://github.com/GlennClatworthy/Tutorial/Alien
+:Alien rdf:type owl:Class ;
+       rdfs:subClassOf :Animal .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Animal
+:Animal rdf:type owl:Class .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Ducky
+:Ducky rdf:type owl:Class ;
+       rdfs:subClassOf :Animal .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Human
+:Human rdf:type owl:Class ;
+       rdfs:subClassOf :Animal .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Pony
+:Pony rdf:type owl:Class ;
+      rdfs:subClassOf :Animal .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/TelevisionShow
+:TelevisionShow rdf:type owl:Class .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Toaster_Oven
+:Toaster_Oven rdf:type owl:Class ;
+              rdfs:label "Toaster oven"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://github.com/GlennClatworthy/Tutorial/Davy_Ducky
+:Davy_Ducky rdf:type owl:NamedIndividual ,
+                     :Ducky ;
+            :watches :Leave_It_to_Beaver .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Leave_It_to_Beaver
+:Leave_It_to_Beaver rdf:type owl:NamedIndividual ,
+                             :TelevisionShow .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Matlock
+:Matlock rdf:type owl:NamedIndividual ,
+                  :TelevisionShow .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Prissy
+:Prissy rdf:type owl:NamedIndividual ,
+                 :Pony ;
+        :watches :Matlock .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Roger_Kaputnick
+:Roger_Kaputnick rdf:type owl:NamedIndividual ,
+                          :Human ;
+                 :watches :Stargate_SG1 .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Spock
+:Spock rdf:type owl:NamedIndividual ,
+                :Alien .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Star_Trek
+:Star_Trek rdf:type owl:NamedIndividual ,
+                    :TelevisionShow .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Stargate_SG1
+:Stargate_SG1 rdf:type owl:NamedIndividual ,
+                       :TelevisionShow .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Teal'C
+<https://github.com/GlennClatworthy/Tutorial/Teal'C> rdf:type owl:NamedIndividual ,
+                                                              :Alien ;
+                                                     :appearsIn :Stargate_SG1 ;
+                                                     rdfs:label "Teal'C	" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
