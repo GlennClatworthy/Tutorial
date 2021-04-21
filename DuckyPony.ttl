@@ -52,7 +52,13 @@
 
 ###  https://github.com/GlennClatworthy/Tutorial/Davy_Ducky
 :Davy_Ducky rdf:type owl:NamedIndividual ,
-                     :Ducky .
+                     :Ducky ;
+            :watches :Leave_It_to_Beaver .
+
+
+###  https://github.com/GlennClatworthy/Tutorial/Leave_It_to_Beaver
+:Leave_It_to_Beaver rdf:type owl:NamedIndividual ,
+                             :TelevisionShow .
 
 
 ###  https://github.com/GlennClatworthy/Tutorial/Matlock
