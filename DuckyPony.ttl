@@ -118,6 +118,11 @@ dp:Matlock rdf:type owl:NamedIndividual ,
                     dp:TelevisionShow .
 
 
+###  https://github.com/GlennClatworthy/Tutorial/Pennywhistle
+dp:Pennywhistle rdf:type owl:NamedIndividual ,
+                         dp:MusicalInstrument .
+
+
 ###  https://github.com/GlennClatworthy/Tutorial/Piano
 dp:Piano rdf:type owl:NamedIndividual ,
                   dp:MusicalInstrument ;
