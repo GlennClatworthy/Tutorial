@@ -74,6 +74,11 @@ dp:Human rdf:type owl:Class ;
          rdfs:label "Human"@en .
 
 
+###  https://github.com/GlennClatworthy/Tutorial/Ice_Cream
+dp:Ice_Cream rdf:type owl:Class ;
+             rdfs:subClassOf dp:Food .
+
+
 ###  https://github.com/GlennClatworthy/Tutorial/MusicalInstrument
 dp:MusicalInstrument rdf:type owl:Class .
 
