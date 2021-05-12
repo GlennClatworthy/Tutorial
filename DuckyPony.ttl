@@ -170,6 +170,11 @@ dp:Toaster_Oven rdf:type owl:NamedIndividual ;
                 dp:makes dp:Toast .
 
 
+###  https://github.com/GlennClatworthy/Tutorial/Violin
+dp:Violin rdf:type owl:NamedIndividual ,
+                   dp:MusicalInstrument .
+
+
 #################################################################
 #    Annotations
 #################################################################
