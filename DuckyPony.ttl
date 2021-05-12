@@ -120,6 +120,11 @@ dp:Prissy
 	dp:watches dp:Matlock ;
 	.
 
+dp:Refrigerator
+	a owl:Class ;
+	rdfs:subClassOf dp:Appliance ;
+	.
+
 dp:Roger_Kaputnick
 	a
 		owl:NamedIndividual ,
