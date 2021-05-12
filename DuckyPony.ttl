@@ -108,6 +108,11 @@ dp:Davy_Ducky rdf:type owl:NamedIndividual ,
               dp:watches dp:Leave_It_to_Beaver .
 
 
+###  https://github.com/GlennClatworthy/Tutorial/Kazoo
+dp:Kazoo rdf:type owl:NamedIndividual ,
+                  dp:MusicalInstrument .
+
+
 ###  https://github.com/GlennClatworthy/Tutorial/Leave_It_to_Beaver
 dp:Leave_It_to_Beaver rdf:type owl:NamedIndividual ,
                                dp:TelevisionShow .
