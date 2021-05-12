@@ -196,11 +196,6 @@ dp:Violin
 		;
 	.
 
-dp:ZansForCans
-	a owl:Class ;
-	rdfs:subClassOf dp:Appliance ;
-	.
-
 dp:appearsIn
 	a owl:ObjectProperty ;
 	rdfs:range dp:TelevisionShow ;
