@@ -50,6 +50,11 @@ dp:Food
 	rdfs:label "Food" ;
 	.
 
+dp:Fudge
+	a owl:Class ;
+	rdfs:subClassOf dp:Food ;
+	.
+
 dp:Grapes
 	a owl:Class ;
 	rdfs:subClassOf dp:Food ;
