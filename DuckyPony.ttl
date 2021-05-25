@@ -80,6 +80,10 @@ dp:Leave_It_to_Beaver
 		;
 	.
 
+dp:Lozenge
+	a owl:Class ;
+	.
+
 dp:Matlock
 	a
 		owl:NamedIndividual ,
@@ -167,6 +171,11 @@ dp:TealC
 
 dp:TelevisionShow
 	a owl:Class ;
+	.
+
+dp:ThroatLozenge
+	a owl:Class ;
+	rdfs:subClassOf dp:Lozenge ;
 	.
 
 dp:Toast
