@@ -100,6 +100,11 @@ dp:MusicalInstrument
 	a owl:Class ;
 	.
 
+dp:Oven
+	a owl:Class ;
+	rdfs:subClassOf dp:Appliance ;
+	.
+
 dp:Pennywhistle
 	a
 		owl:NamedIndividual ,
@@ -113,6 +118,11 @@ dp:Piano
 		dp:MusicalInstrument
 		;
 	rdfs:label "Piano"@en ;
+	.
+
+dp:Pizza_Oven
+	a owl:Class ;
+	rdfs:subClassOf dp:Oven ;
 	.
 
 dp:Pony
@@ -198,7 +208,7 @@ dp:Toaster_Oven
 		owl:NamedIndividual ,
 		owl:Class
 		;
-	rdfs:subClassOf dp:Appliance ;
+	rdfs:subClassOf dp:Oven ;
 	rdfs:label "Toaster oven"@en ;
 	dp:makes dp:Toast ;
 	.
